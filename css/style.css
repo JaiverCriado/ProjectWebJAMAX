@@ -194,6 +194,109 @@ nav a:hover {
     font-size: 18px;
 }
 
+/* Section video */
+
+.video {
+    background-color: #004d40;
+    padding: 48px 48px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.video-container {
+    max-width: 800px;
+    font-family: "Poppins "Arial, sans-serif;
+}
+
+.video-player {
+    width: 100%;
+    background: #000;
+    border-radius: 12px;
+}
+
+.controls {
+    background: #333;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button {
+    background: #666;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #888;
+}
+
+.progress {
+    flex-grow: 1;
+    height: 5px;
+    background: #555;
+    cursor: pointer;
+    position: relative;
+    min-width: 100px;
+}
+
+.progress-bar {
+    background: #fff;
+    height: 100%;
+    width: 0;
+}
+
+.time {
+    color: white;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.volume-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.volume-slider {
+    width: 80px;
+    cursor: pointer;
+}
+
+.speed-select {
+    background: #666;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.speed-select:hover {
+    background: #888;
+}
+
+.subtitle-track {
+    background: #666;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subtitle-track:hover {
+    background: #888;
+}
+
+
 /* Services Section */
 .services {
     padding: 5rem 2rem;
@@ -259,7 +362,7 @@ nav a:hover {
 
 /* Portfolio Section */
 .portfolio {
-    padding: 5rem 2rem;
+    padding: 2rem 2rem;
     background-color: #004d40;
     text-align: center;
 }
@@ -334,6 +437,7 @@ nav a:hover {
     border-radius: 5px;
     margin-top: 0.5rem;
 }
+
 
 /*Section Portfolio Styles-----------------------------------------------------------------------------------------*/
 
@@ -508,6 +612,10 @@ footer {
     opacity: 0.8;
 }
 
+.footer-links a:hover {
+    color: white;
+}
+
 .footer-links h4 {
     font-size: 1.5rem;
     font-weight: 500;
@@ -531,6 +639,10 @@ footer {
     display: block;
     margin-bottom: 0.5rem;
     opacity: 0.8;
+}
+
+.footer-contact a:hover {
+    color: white;
 }
 
 .footer-contact h4 {
